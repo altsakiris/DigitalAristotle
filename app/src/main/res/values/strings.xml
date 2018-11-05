@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">My Application</string>
+
+    <string name="categories">Κατηγορίες</string>
+    <string name="math">Μαθηματικά</string>
+    <string name="comp">Επιστήμη Υπολογιστών</string>
+    <string name="phyc">Φυσική</string>
+    <string name="chem">Χημεία</string>
+
+    <string name="diaforikos">Διαφορικός Λογισμός</string>
+    <string name="oloklirotikos">Ολοκληρωτικός Λογισμός</string>
+    <string name="diakrita">Διακριτκά Μαθηματικά</string>
+    <string name="pinakes">Πίνακες</string>
+    
+    <string name="glossesprog">Γλώσσες Προγραμματισμού</string>
+    <string name="glossesshm">Γλώσσες Σήμανσης</string>
+    <string name="methodprog">Μεθοδολογίες Προγραμματισμού</string>
+    <string name="grafika">Γραφικά</string>
+    <string name="c">C</string>
+    <string name="java">Java</string>
+    <string name="Cpp">C++</string>
+    <string name="html">HTML</string>
+    <string name="xml">XML</string>
+
+    <string name="movement">Κίνηση</string>
+    <string name="electromagnetics">Ηλεκτρομαγν</string>
+
+    <string name="search">Αναζήτηση</string>
+    <string name="failed">Αποτυχία δημιουργίας Youtube Player</string>
+
 </resources>
