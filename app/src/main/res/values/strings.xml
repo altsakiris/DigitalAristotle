@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
-
     <string name="categories">Κατηγορίες</string>
+    <string name="search">Αναζήτηση</string>
+    <string name="failed">Αποτυχία εκκίνησης Youtube Player.</string>
     <string name="math">Μαθηματικά</string>
     <string name="comp">Επιστήμη Υπολογιστών</string>
     <string name="phyc">Φυσική</string>
@@ -23,9 +24,12 @@
     <string name="xml">XML</string>
 
     <string name="movement">Κίνηση</string>
-    <string name="electromagnetics">Ηλεκτρομαγν</string>
+    <string name="talantoseis">Ταλαντώσεις</string>
+    <string name="electromagnetics">Ηλεκτρομαγνητική</string>
+    <string name="waves">Κύματα</string>
 
-    <string name="search">Αναζήτηση</string>
-    <string name="failed">Αποτυχία δημιουργίας Youtube Player</string>
-
+    <string name="acids">Οξέα</string>
+    <string name="organicchem">Οργανική Χημεία</string>
+    <string name="chemkin">Χημική Κινητική</string>
+    <string name="chembal">Χημική Ισορροπία</string>
 </resources>
