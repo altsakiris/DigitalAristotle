@@ -15,11 +15,10 @@
     
     <string name="glossesprog">Γλώσσες Προγραμματισμού</string>
     <string name="glossesshm">Γλώσσες Σήμανσης</string>
-    <string name="methodprog">Μεθοδολογίες Προγραμματισμού</string>
-    <string name="grafika">Γραφικά</string>
+    <string name="databses">Βάσεις Δεδομένων</string>
+    <string name="networks">Δίκτυα</string>
     <string name="c">C</string>
     <string name="java">Java</string>
-    <string name="Cpp">C++</string>
     <string name="html">HTML</string>
     <string name="xml">XML</string>
 
@@ -32,4 +31,16 @@
     <string name="organicchem">Οργανική Χημεία</string>
     <string name="chemkin">Χημική Κινητική</string>
     <string name="chembal">Χημική Ισορροπία</string>
+    <string name="sql">SQL</string>
+    <string name="mysql">MySql</string>
+    <string name="postgresql">PostgreSQL</string>
+    <string name="sparql">SPARQL</string>
+    <string name="cpp">C++</string>
+    <string name="python">Python</string>
+    <string name="php">PHP</string>
+    <string name="css">CSS</string>
+    <string name="xaml">XAML</string>
+    <string name="lan">LAN</string>
+    <string name="man">MAN</string>
+    <string name="wan">WAN</string>
 </resources>

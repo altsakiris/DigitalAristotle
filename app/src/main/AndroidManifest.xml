@@ -27,6 +27,17 @@
             android:parentActivityName="com.example.aggelos.digitalaristotle.CategoryActivity"/>
         <activity android:name="com.example.aggelos.digitalaristotle.PhycActivity"
             android:parentActivityName="com.example.aggelos.digitalaristotle.CategoryActivity"/>
+        <activity android:name="com.example.aggelos.digitalaristotle.CompProgActivity"
+            android:parentActivityName="com.example.aggelos.digitalaristotle.CompActivity"/>
+
+        <activity android:name="com.example.aggelos.digitalaristotle.CompMarkupActivity"
+            android:parentActivityName="com.example.aggelos.digitalaristotle.CompActivity"/>
+
+        <activity android:name="com.example.aggelos.digitalaristotle.CompDataActivity"
+            android:parentActivityName="com.example.aggelos.digitalaristotle.CompActivity"/>
+
+        <activity android:name="com.example.aggelos.digitalaristotle.CompNetActivity"
+            android:parentActivityName="com.example.aggelos.digitalaristotle.CompActivity"/>
 
         <activity android:name="com.example.aggelos.digitalaristotle.SearchActivity">
             <intent-filter>

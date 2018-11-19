@@ -11,12 +11,11 @@
         android:id="@+id/txtView_category"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="@string/comp"
-        android:textAlignment="center"
-        android:textSize="32sp"
-        android:textColor="@color/colorText"
         android:layout_marginTop="20dp"
-        />
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="32sp"
+        android:text="@string/networks" />
 
     <LinearLayout
         android:layout_height="80dp"
@@ -25,24 +24,24 @@
         android:layout_marginTop="30dp">
 
         <Button
-            android:id="@+id/btnProg"
+            android:id="@+id/btnJava"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/glossesprog"
             android:textAllCaps="false"
-            android:textSize="17sp"
-            android:textStyle="bold" />
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="@string/lan" />
 
         <Button
-            android:id="@+id/btnShm"
+            android:id="@+id/btnC"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/glossesshm"
             android:textAllCaps="false"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:text="@string/man" />
     </LinearLayout>
 
     <LinearLayout
@@ -52,24 +51,15 @@
         android:layout_marginTop="30dp">
 
         <Button
-            android:id="@+id/btnData"
+            android:id="@+id/btnPython"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/databses"
             android:textAllCaps="false"
             android:textSize="19sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:text="@string/wan" />
 
-        <Button
-            android:id="@+id/btnNet"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight=".5"
-            android:text="@string/networks"
-            android:textAllCaps="false"
-            android:textSize="20sp"
-            android:textStyle="bold"/>
     </LinearLayout>
 
 

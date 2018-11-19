@@ -36,7 +36,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/glossesshm"
+            android:text="@string/talantoseis"
             android:textAllCaps="false"
             android:textSize="20sp"
             android:textStyle="bold"/>
@@ -52,16 +52,16 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/methodprog"
+            android:text="@string/electromagnetics"
             android:textAllCaps="false"
-            android:textSize="19sp"
+            android:textSize="16sp"
             android:textStyle="bold"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/grafika"
+            android:text="@string/waves"
             android:textAllCaps="false"
             android:textSize="20sp"
             android:textStyle="bold"/>

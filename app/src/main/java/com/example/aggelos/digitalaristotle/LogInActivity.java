@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.aggelos.digitalaristotle.Objects.GlobalVar;
 import com.example.aggelos.myapplication.R;
 
 import io.realm.Realm;
@@ -16,8 +15,6 @@ import io.realm.Realm;
 public class LogInActivity extends AppCompatActivity {
 
     Realm realm;
-    GlobalVar gVar;
-
 
     private EditText Name;
     private EditText Password;
@@ -28,6 +25,9 @@ public class LogInActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        Realm.init(this);
+        Realm realm = Realm.getDefaultInstance();
 
         Name = (EditText)findViewById(R.id.etName);
         Password = (EditText)findViewById(R.id.etPassword);

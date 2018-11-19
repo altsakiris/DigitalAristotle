@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.Button;
 
 import com.example.aggelos.myapplication.R;
 
@@ -17,10 +17,10 @@ public class CategoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category);
 
-        ImageButton math = (ImageButton) findViewById(R.id.btnMath);
-        ImageButton comp = (ImageButton) findViewById(R.id.btnComp);
-        ImageButton phys = (ImageButton) findViewById(R.id.btnPhys);
-        ImageButton chem = (ImageButton) findViewById(R.id.btnChem);
+        Button math = (Button)findViewById(R.id.btnMath);
+        Button comp = (Button)findViewById(R.id.btnComp);
+        Button phys = (Button)findViewById(R.id.btnPhys);
+        Button chem = (Button)findViewById(R.id.btnChem);
 
         math.setOnClickListener(new View.OnClickListener() {
             @Override

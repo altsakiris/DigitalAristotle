@@ -17,6 +17,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+    packagingOptions {
+        exclude 'com/google/api/client/googleapis/google.jks'
+        exclude 'META-INF/DEPENDENCIES'
+    }
 }
 
 dependencies {
