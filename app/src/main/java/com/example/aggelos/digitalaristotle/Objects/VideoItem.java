@@ -1,4 +1,4 @@
-package com.example.aggelos.digitalaristotle;
+package com.example.aggelos.digitalaristotle.Objects;
 
 public class VideoItem {
     private String title;

@@ -2,6 +2,8 @@ package com.example.aggelos.digitalaristotle;
 
 import android.content.Context;
 import android.util.Log;
+
+import com.example.aggelos.digitalaristotle.Objects.VideoItem;
 import com.example.aggelos.myapplication.R;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpRequestInitializer;

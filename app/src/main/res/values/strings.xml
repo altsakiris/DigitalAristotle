@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">tei-learning</string>
     <string name="categories">Κατηγορίες</string>
     <string name="search">Αναζήτηση</string>
     <string name="failed">Αποτυχία εκκίνησης Youtube Player.</string>

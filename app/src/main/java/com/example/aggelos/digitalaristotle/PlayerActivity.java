@@ -4,7 +4,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -76,7 +75,7 @@ public class PlayerActivity extends YouTubeBaseActivity implements YouTubePlayer
                                                                       .equalTo("category", category)
                                                                       .findFirst();
                                                               video.addRating();
-                                                              Log.d("rating", "Rating is now: " + bgRealm.where(YouTubeVideo.class).equalTo("videoID", videoID).and().equalTo("category", category).findFirst().getRating());
+                                                              Log.d("rating plus", "Rating is now: " + bgRealm.where(YouTubeVideo.class).equalTo("videoID", videoID).and().equalTo("category", category).findFirst().getRating());
                                                           }
                                                       });
                         finish();
@@ -86,6 +85,18 @@ public class PlayerActivity extends YouTubeBaseActivity implements YouTubePlayer
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         // vgale 1 apo th vash
+                        realm.executeTransactionAsync(new Realm.Transaction() {
+                            @Override
+                            public void execute(Realm bgrealm) {
+                                YouTubeVideo video = bgrealm.where(YouTubeVideo.class)
+                                        .equalTo("videoID", videoID)
+                                        .and()
+                                        .equalTo("category", category)
+                                        .findFirst();
+                                video.minRating();
+                                Log.d("rating minus", "Rating is now: " + bgrealm.where(YouTubeVideo.class).equalTo("videoID", videoID).and().equalTo("category", category).findFirst().getRating());
+                            }
+                        });
                         finish();
                     }
                 })
