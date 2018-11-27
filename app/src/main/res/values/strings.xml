@@ -1,4 +1,5 @@
 <resources>
+    <!-- CATEGORY -->
     <string name="app_name">tei-learning</string>
     <string name="categories">Κατηγορίες</string>
     <string name="search">Αναζήτηση</string>
@@ -7,40 +8,54 @@
     <string name="comp">Επιστήμη Υπολογιστών</string>
     <string name="phyc">Φυσική</string>
     <string name="chem">Χημεία</string>
-
-    <string name="diaforikos">Διαφορικός Λογισμός</string>
-    <string name="oloklirotikos">Ολοκληρωτικός Λογισμός</string>
-    <string name="diakrita">Διακριτκά Μαθηματικά</string>
-    <string name="pinakes">Πίνακες</string>
-    
+    <!-- COMP -->
     <string name="glossesprog">Γλώσσες Προγραμματισμού</string>
     <string name="glossesshm">Γλώσσες Σήμανσης</string>
     <string name="databses">Βάσεις Δεδομένων</string>
     <string name="networks">Δίκτυα</string>
-    <string name="c">C</string>
+    <!-- prog -->
+    <string name="cpp">C++</string>
     <string name="java">Java</string>
     <string name="html">HTML</string>
     <string name="xml">XML</string>
-
-    <string name="movement">Κίνηση</string>
-    <string name="talantoseis">Ταλαντώσεις</string>
-    <string name="electromagnetics">Ηλεκτρομαγνητική</string>
-    <string name="waves">Κύματα</string>
-
-    <string name="acids">Οξέα</string>
-    <string name="organicchem">Οργανική Χημεία</string>
-    <string name="chemkin">Χημική Κινητική</string>
-    <string name="chembal">Χημική Ισορροπία</string>
+    <!-- net -->
+    <string name="lan">LAN</string>
+    <string name="man">MAN</string>
+    <string name="wan">WAN</string>
+    <!-- data -->
     <string name="sql">SQL</string>
     <string name="mysql">MySql</string>
     <string name="postgresql">PostgreSQL</string>
     <string name="sparql">SPARQL</string>
-    <string name="cpp">C++</string>
+    <!-- markup -->
     <string name="python">Python</string>
     <string name="php">PHP</string>
     <string name="css">CSS</string>
     <string name="xaml">XAML</string>
-    <string name="lan">LAN</string>
-    <string name="man">MAN</string>
-    <string name="wan">WAN</string>
+    <!-- CHEM -->
+    <string name="organic">Οργανική Χημεία</string>
+    <string name="analitic">Αναλυτική Χημεία</string>
+    <string name="phychem">Φυσικοχημεία</string>
+    <string name="biochem">Βιοχημεία</string>
+    <string name="enorganic">Ανόργανη Χημεία</string>
+    <!-- PHYC -->
+    <string name="classic">Κλασική Φυσική</string>
+    <string name="newage">Σύγχρωνη Φυσική</string>
+    <!-- classic -->
+    <string name="classicP1">Kλασική Μηχανική</string>
+    <string name="classicP2">Ηλεκτρομαγνητισμός</string>
+    <string name="classicP3">Θερμοδυναμική</string>
+    <string name="classicP4">Οπτική</string>
+    <!-- new age -->
+    <string name="newageP1">Κβαντική μηχανική</string>
+    <string name="newageP2">Σωματιδιακή φυσική</string>
+    <string name="newageP3">Ατομική φυσική</string>
+    <string name="newageP4">Πυρηνική φυσική</string>
+    <string name="newageP5">Κοσμολογία</string>
+    <string name="newageP6">Φυσική της συμπυκνωμένης ύλης</string>
+    <!-- MATH -->
+    <string name="diaforikos">Διαφορικός Λογισμός</string>
+    <string name="oloklirotikos">Ολοκληρωτικός Λογισμός</string>
+    <string name="diakrita">Διακριτκά Μαθηματικά</string>
+    <string name="pinakes">Πίνακες</string>
 </resources>

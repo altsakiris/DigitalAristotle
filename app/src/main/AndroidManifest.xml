@@ -25,7 +25,7 @@
             android:parentActivityName="com.example.aggelos.digitalaristotle.CategoryActivity"/>
         <activity android:name="com.example.aggelos.digitalaristotle.ChemActivity"
             android:parentActivityName="com.example.aggelos.digitalaristotle.CategoryActivity"/>
-        <activity android:name="com.example.aggelos.digitalaristotle.PhycActivity"
+        <activity android:name="com.example.aggelos.digitalaristotle.PhysActivity"
             android:parentActivityName="com.example.aggelos.digitalaristotle.CategoryActivity"/>
         <activity android:name="com.example.aggelos.digitalaristotle.CompProgActivity"
             android:parentActivityName="com.example.aggelos.digitalaristotle.CompActivity"/>
@@ -38,6 +38,12 @@
 
         <activity android:name="com.example.aggelos.digitalaristotle.CompNetActivity"
             android:parentActivityName="com.example.aggelos.digitalaristotle.CompActivity"/>
+
+        <activity android:name="com.example.aggelos.digitalaristotle.PhysClassicActivity"
+            android:parentActivityName="com.example.aggelos.digitalaristotle.PhysActivity"/>
+
+        <activity android:name="com.example.aggelos.digitalaristotle.PhysNewAgeActivity"
+            android:parentActivityName="com.example.aggelos.digitalaristotle.PhysActivity"/>
 
         <activity android:name="com.example.aggelos.digitalaristotle.SearchActivity">
             <intent-filter>

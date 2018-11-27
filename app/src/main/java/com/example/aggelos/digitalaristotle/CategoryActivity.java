@@ -10,8 +10,6 @@ import com.example.aggelos.myapplication.R;
 
 public class CategoryActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +39,7 @@ public class CategoryActivity extends AppCompatActivity {
         phys.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CategoryActivity.this, PhycActivity.class);
+                Intent intent = new Intent(CategoryActivity.this, PhysActivity.class);
                 startActivity(intent);
             }
         });

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
@@ -10,12 +11,11 @@
         android:id="@+id/txtView_category"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="@string/phyc"
-        android:textAlignment="center"
-        android:textSize="32sp"
-        android:textColor="@color/colorText"
         android:layout_marginTop="20dp"
-        />
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="32sp"
+        android:text="@string/newage" />
 
     <LinearLayout
         android:layout_height="80dp"
@@ -24,22 +24,24 @@
         android:layout_marginTop="30dp">
 
         <Button
+            android:id="@+id/btnNew1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/movement"
+            android:text="@string/newageP1"
             android:textAllCaps="false"
-            android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textSize="19sp"
+            android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btnNew2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/talantoseis"
+            android:text="@string/newageP2"
             android:textAllCaps="false"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -49,22 +51,51 @@
         android:layout_marginTop="30dp">
 
         <Button
+            android:id="@+id/btnNew3"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/electromagnetics"
+            android:text="@string/newageP3"
             android:textAllCaps="false"
-            android:textSize="16sp"
-            android:textStyle="bold"/>
+            android:textSize="19sp"
+            android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btnNew4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/waves"
+            android:text="@string/newageP4"
             android:textAllCaps="false"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btnNew5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="@string/newageP5"
+            android:textAllCaps="false"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnNew6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="@string/newageP6"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 

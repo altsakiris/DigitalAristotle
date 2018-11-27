@@ -24,22 +24,24 @@
         android:layout_marginTop="30dp">
 
         <Button
+            android:id="@+id/btnMath1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
             android:text="@string/diakrita"
             android:textAllCaps="false"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btnMath2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
             android:text="@string/pinakes"
             android:textAllCaps="false"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -49,22 +51,24 @@
         android:layout_marginTop="30dp">
 
         <Button
+            android:id="@+id/btnMath3"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
             android:text="@string/diaforikos"
             android:textAllCaps="false"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btnMath4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
             android:text="@string/oloklirotikos"
             android:textAllCaps="false"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
     </LinearLayout>
 
 

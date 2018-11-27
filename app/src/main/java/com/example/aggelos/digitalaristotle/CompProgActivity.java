@@ -15,16 +15,46 @@ public class CompProgActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_comp_prog);
 
-        Button btnJava = (Button)findViewById(R.id.btnJava);
-        Button btnCpp = (Button)findViewById(R.id.btnCpp);
-        Button btnPython = (Button)findViewById(R.id.btnPython);
-        Button btnPHP = (Button)findViewById(R.id.btnPHP);
+        Button Java = (Button)findViewById(R.id.btnJava);
+        Button Cpp = (Button)findViewById(R.id.btnCpp);
+        Button Python = (Button)findViewById(R.id.btnPython);
+        Button PHP = (Button)findViewById(R.id.btnPHP);
 
-        btnJava.setOnClickListener(new View.OnClickListener() {
+        Java.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(CompProgActivity.this, SearchActivity.class);
                 intent.putExtra("searchQuery", "java tutorial");
+                intent.putExtra("category", "comp");
+                startActivity(intent);
+            }
+        });
+
+        Cpp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(CompProgActivity.this, SearchActivity.class);
+                intent.putExtra("searchQuery", "c++ tutorial");
+                intent.putExtra("category", "comp");
+                startActivity(intent);
+            }
+        });
+
+        Python.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(CompProgActivity.this, SearchActivity.class);
+                intent.putExtra("searchQuery", "python tutorial");
+                intent.putExtra("category", "comp");
+                startActivity(intent);
+            }
+        });
+
+        PHP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(CompProgActivity.this, SearchActivity.class);
+                intent.putExtra("searchQuery", "php tutorial");
                 intent.putExtra("category", "comp");
                 startActivity(intent);
             }

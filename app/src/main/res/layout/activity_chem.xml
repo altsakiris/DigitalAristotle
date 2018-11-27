@@ -24,22 +24,24 @@
         android:layout_marginTop="30dp">
 
         <Button
+            android:id="@+id/btnChem1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/acids"
+            android:text="@string/organic"
             android:textAllCaps="false"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btnChem2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/organicchem"
+            android:text="@string/analitic"
             android:textAllCaps="false"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -49,24 +51,43 @@
         android:layout_marginTop="30dp">
 
         <Button
+            android:id="@+id/btnChem3"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/chemkin"
+            android:text="@string/phychem"
             android:textAllCaps="false"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btnChem4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".5"
-            android:text="@string/chembal"
+            android:text="@string/biochem"
             android:textAllCaps="false"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btnChem5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="@string/enorganic"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
 
 </LinearLayout>
